@@ -17,6 +17,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 *{
@@ -202,7 +203,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     color: #fff;
     font-size: 54px;
     font-weight: 700;
-    font-family: cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 1.5;
 }
 .header-text h2 span {color: #d92cf9;}
@@ -749,6 +750,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .contact-add-head h3 {
     font-size:  24px;
     color:  #3c4258;
+    font-family: cursive;
 }
 .contact-add-head p {
     font-size:  16px;
@@ -756,6 +758,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     color:  #636a82;
     font-weight:  300;
     margin-top:  6px;
+    font-family: cursive;
 }
 /* contact-adress */
 
@@ -764,6 +767,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .single-contact-add-info h3 {
     color:  #636a82;
     font-weight:  500;
+    font-family:cursive;
 }
 .single-contact-add-info p {
     color:  #999fb3;
