@@ -728,12 +728,12 @@ In addition to my technical skills, I bring a collaborative spirit and a commitm
 										<div class="row">
 											<div class="col-sm-12">
 												<div class="single-contact-btn">
-													<a class="contact-btn" href="+254700555823" role="button">submit</a>
+													<a class="contact-btn" href="davidbusuru1@gmail.com" role="button">submit</a>
 												</div><!--/.single-single-contact-btn-->
 											</div><!--/.col-->
 										</div><!--/.row-->
-										    <!-- Link to External JS -->
-                                        <script src="/assets/js/formHandler.js"></script>
+										    
+            
 
 									</form><!--/form-->
 								</div><!--/.contact-form-->
@@ -831,6 +831,38 @@ In addition to my technical skills, I bring a collaborative spirit and a commitm
         
         <!--Custom JS-->
         <script src="assets/js/custom.js"></script>
+		<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<div id="feedback">
+<script type="text/javascript">
+(function() {
+    emailjs.init("ilNfPy4pabszpFwy5"); // Replace with your EmailJS user ID
+})();
+
+document.querySelector('form').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent the default form submission
+
+    // Get form values
+    const subject = document.getElementById('subject').value;
+    const message = document.getElementById('comment').value;
+
+    // Validate form values (basic validation)
+    if (!subject || !message) {
+        document.getElementById('feedback').innerText = 'Please fill out all fields.';
+        return;
+    }
+
+    // Send the message using EmailJS (or any other service)
+	emailjs.send('service_ry8ucfk', '__ejs-test-mail-service__', {
+        subject: subject,
+        message: message
+    }).then(function(response) {
+        document.getElementById('feedback').innerText = 'Message sent successfully!';
+    }, function(error) {
+        document.getElementById('feedback').innerText = 'Failed to send message. Please try again later.';
+    });
+});
+</script>
+</div>
         
     </body>
 	
