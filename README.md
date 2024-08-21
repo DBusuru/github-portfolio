@@ -10,7 +10,7 @@ Table of Contents
 
 About Me  
 
-I am David Busuru, a Software Developer based in Nairobi Kenya.a. I am constantly looking to enhance my skills and take on new challenges.  
+I am David Busuru, a Software Developer based in Nairobi Kenya. I am constantly looking to enhance my skills and take on new challenges.  
 
 
 Getting Started  
