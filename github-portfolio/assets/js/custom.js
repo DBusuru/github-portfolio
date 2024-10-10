@@ -1,11 +1,16 @@
+ //Import Mixpanel SDK
+ import mixpanel from "mixpanel-browser";
 $(document).ready(function(){
 	"use strict";
     
-        /*==================================
-* Author        : "ThemeSine"
-* Template Name : Khanas HTML Template
-* Version       : 1.0
-==================================== */
+
+
+// Near entry of your product, init Mixpanel
+mixpanel.init("f9dc880573b7dca62f1c09f64ed01f39", {
+  debug: true,
+  track_pageview: true,
+  persistence: "localStorage",
+});
 
 
 

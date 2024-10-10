@@ -8,8 +8,8 @@ $(document).ready(function(){
 5. welcome animation support
 ======================================*/
 
-    // 1. Scroll To Top 
-		$(window).on('scroll',function () {
+    // 1. Scroll To Top
+	$(window).on('scroll',function () {
 			if ($(this).scrollTop() > 600) {
 				$('.return-to-top').fadeIn();
 			} else {
